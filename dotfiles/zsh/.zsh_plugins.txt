@@ -1,0 +1,17 @@
+# Bundles from the default repo (robbyrussell's oh-my-zsh).
+robbyrussell/oh-my-zsh path:plugins/git
+robbyrussell/oh-my-zsh path:plugins/command-not-found
+robbyrussell/oh-my-zsh path:plugins/ssh-agent
+
+# Bundles from other repos
+djui/alias-tips
+agkozak/zsh-z
+
+# Syntax highlighting bundles.
+zsh-users/zsh-completions
+zsh-users/zsh-syntax-highlighting
+zsh-users/zsh-autosuggestions
+
+# prompt theme and dependencies of it
+mafredri/zsh-async
+YourFin/pure-agnoster
