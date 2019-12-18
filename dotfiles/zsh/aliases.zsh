@@ -19,6 +19,7 @@ alias afk='/System/Library/CoreServices/Menu\ Extras/User.menu/Contents/Resource
 alias shrug="echo '¯\_(ツ)_/¯' | pbcopy";
 alias nah="git reset --hard && git clean -df"
 alias wip="git add . && git commit -m 'wip'"
+alias towa='cd web/app/themes/towa-theme'
 
 # Laravel / PHP
 alias art="php artisan"
