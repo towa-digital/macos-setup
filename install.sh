@@ -2,6 +2,7 @@
 
 echo "Setting up your Mac..."
 echo "Installing Homebrew..."
+
 # Check for Homebrew and install if we don't have it
 if test ! $(which brew); then
   /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
@@ -26,6 +27,9 @@ if test ! $(which composer); then
     curl -sS https://getcomposer.org/installer | php
     mv composer.phar /usr/local/bin/composer
 fi
+
+## Install VSCode Extensions 
+bash vscode-setup.sh
 
 # Install global Composer packages
 
