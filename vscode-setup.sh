@@ -1,6 +1,7 @@
 #!/bin/bash
 
-declare -a vscodeExtensions=( formulahendry.auto-close-tag
+declare -a vscodeExtensions=( 
+    formulahendry.auto-close-tag
     formulahendry.auto-rename-tag
     aaron-bond.better-comments
     mikestead.dotenv
